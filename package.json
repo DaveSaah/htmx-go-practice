@@ -1,0 +1,14 @@
+{
+  "name": "htmx-practice",
+  "version": "1.0.0",
+  "description": "[![Frontend Masters](https://static.frontendmasters.com/assets/brand/logos/full.png)](https://frontendmasters.com)",
+  "scripts": {
+    "dev": "npx tailwindcss -i assets/css/style.css -o assets/css/index.css --watch"
+  },
+  "keywords": [],
+  "author": "DaveSaah",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
