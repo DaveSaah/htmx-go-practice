@@ -1,0 +1,15 @@
+{{ block "index" . }}
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTMX practice</title>
+    <script src="js/htmx.min.js"></script>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <button hx-get="login" hx-target="body">login</button>
+  </body>
+</html>
+{{ end }}
